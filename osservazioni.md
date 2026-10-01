@@ -25,7 +25,7 @@ Esito dopo la modifica e spiegazione della correzione:
 
 ## Step 1 — Git
 
-Quali file ho incluso nel commit e perché:
+Quali file ho incluso nel commit e perché: ho incluso i file hello.c e osservazioni.md nel commit perché sono gli unici due che ho modificato e dei quali posso constatarne l'evoluzione.
 
 Come ho verificato che la versione provata sia presente su GitHub:
 
