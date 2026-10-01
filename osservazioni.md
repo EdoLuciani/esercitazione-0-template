@@ -33,7 +33,7 @@ Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clon
 
 ## Step 2 — Eco: prima prova
 
-Argomenti passati, comando e risultato:
+Argomenti passati, comando e risultato: da completare 
 
 Che cosa posso concludere:
 
