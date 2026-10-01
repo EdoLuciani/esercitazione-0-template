@@ -1,25 +1,25 @@
 # Osservazioni — Esercitazione 0
 
-Gruppo:
+Gruppo: a
 
-Componenti (nome, cognome e username GitHub di entrambi):
+Componenti (nome, cognome e username GitHub di entrambi): Edoardo Luciani (EdoLuciani) Leonardo Mariani(mariani2258738-max)
 
-URL del repository condiviso:
+URL del repository condiviso: https://github.com/Laboratorio-di-fisica-computazionale/esercitazione-0-template.git
 
-Chi ha usato la tastiera nello step 1 e nello step 2:
+Chi ha usato la tastiera nello step 1 e nello step 2: step 1 - Luciani, step 2 - Mariani
 
 Compilate insieme le osservazioni e discutete le risposte: entrambi dovete
 saper spiegare le prove svolte.
 
 ## Step 1 — Hello World: compilazione ed esecuzione
 
-Comando di compilazione:
+Comando di compilazione: 
 
 Comando di esecuzione e risultato osservato:
 
-Che cosa ho capito su sorgente ed eseguibile:
+Che cosa ho capito su sorgente ed eseguibile: Ho capito che la sorgente è il file contenete il codice che è necessario compilare per ottenere un eseguibile, che potrà essere lanciato dal terminale affinché svolga quanto indicvato nel codice della sorgente. Qualora il codice venga modificato, è necessaria la ricompilazione per ottenere un eseguibile aggiornato.
 
-Output richiesto e comportamento del programma prima della modifica:
+Output richiesto e comportamento del programma prima della modifica: "Hello, computational physics!" è l'output che ci è stato richiesto di far apparire su schermo: prima della modifica l'eseguibile rendeva come output il testo indicato
 
 Esito dopo la modifica e spiegazione della correzione:
 
