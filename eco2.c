@@ -65,10 +65,11 @@ int main(int argc, char *argv[])
     char *testo = argv[1];
 
     /* TODO: converti gli argomenti in tipi appropriati. */
-
+    int numero = leggi_numero(argv[2]);
+    double FM = leggi_reale(argv[3]);
     /* Evita una segnalazione finche' testo non viene usato nella stampa. */
     (void)testo;
-
+    printf("%s %d %f\n", testo, numero, FM);
     /* TODO: scrivi una sola chiamata a printf che stampi testo, intero e reale,
      * separati da uno spazio e seguiti da un carattere di nuova riga. */
 
