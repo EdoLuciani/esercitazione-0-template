@@ -33,15 +33,15 @@ Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clon
 
 ## Step 2 — Eco: prima prova
 
-Argomenti passati, comando e risultato: Dagli argomenti passati abbiamo potuto riprendere le funzioni di stampa e i concetti di array, puntatori e dichiarazione di variabili.
+Argomenti passati, comando e risultato: Dagli argomenti passati abbiamo potuto riprendere i concetti di array, puntatori e dichiarazione di variabili.
 
-Che cosa posso concludere:
+Che cosa posso concludere: Che per prendere gli argomenti dal comando di esecuzione sul terminale senza utilizzare funzioni di input nel codice sostituiamo la dicitura "void" nell'argomento della funzione main con un intero, che segnala il numero di argomenti inseriti nel testo del comando da terminale (e dunque la dimensione di argv), e un puntatore char* argv[], che punta invece al contenuto di argv[] il quale per ogni locazione di memoria contiene uno degli argomenti passati al codice da terminale.
 
 ## Step 2 — Eco: seconda prova
 
-Argomenti passati, comando e risultato:
+Argomenti passati, comando e risultato: In questa seconda sezione abbiamo ripreso confidenza con la forma necessaria per la funzione di stampa e le sue caratteristiche
 
-Che cosa ho capito su testo, conversioni e stampa:
+Che cosa ho capito su testo, conversioni e stampa: Abbiamo compreso che passando da terminale degli elementi senza utilizzare scanf al codice è necessaria una conversione nel tipo di elemento che si intende tratatre nel codice: dal comando di esecuzione, tutti gli argomenti sono rilevati dal programma come testo, dunque array di caratteri. E' necessaria dunque una conversione degli elementi numerici (percepiti però come testo) presenti nel comando nel valore che effettivamente essi rappresentano mediante strtol e strtod. Per quanto riguarda invece il comando di stampa, occorre specificare nel testo sia il tipo di elemento che bisognerà stampare con %s %d o %f, e, nel caso del double, il numero di cifre dopo la virgola con %.6f.
 
 ## Step 2 — Risultato ed errori
 
@@ -53,10 +53,10 @@ Come un controllo automatico può riconoscere un errore:
 
 ## Step 2 — Parametri e calcolo fisico
 
-Quando serve ricompilare e quando basta cambiare gli argomenti:
+Quando serve ricompilare e quando basta cambiare gli argomenti: Serve ricompilare quando negli argomenti inseriti nel comando d'esecuzione vengono cambiate le tipologie di elemento o il loro ordine rispetto a come prevede di ricevere i dati il programma, dunque si necessita un cambiamento dello script, mentre ogni qualvolta che cambia l'argomento, ma non la tipologia, basta sostituire il nuovo argomento desiderato eseguendo da terminale il programma.
 
 ## Step 2 — Git
 
-Come riconosco nella cronologia i commit dei due step:
+Come riconosco nella cronologia i commit dei due step: Attraverso l'intestazione che gli abbiamo dato, che segna data e ora del salvataggio.
 
-Come ho verificato che la versione finale sia presente su GitHub:
+Come ho verificato che la versione finale sia presente su GitHub: Ho verificato che la versione finale fosse presente su GitHub dopo il push aprendo i file nella repository e controllando che l'intestazione del commit effettuato coincidesse con l'ultima versione salvata da terminale.
